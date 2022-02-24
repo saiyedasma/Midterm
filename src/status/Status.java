@@ -21,6 +21,11 @@ public class Status {
     /**
      * @param args the command line arguments
      */
+    {
+      enum {
+          REJECTED,
+          PNDING,PROCESSING,APPROVED,NOT VALID CODE
+      }
     public static void main(String[] args)
     {
     Scanner in =new Scanner(System.in);
